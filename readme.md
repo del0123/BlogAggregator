@@ -18,11 +18,9 @@ Before installing and running Gator, ensure you have the following software inst
 Gator is compiled into a single static binary. You can build and install it directly to your `$GOPATH/bin` using `go install`:
 
 ```bash
-go install github.com/YOUR_GITHUB_USERNAME/BlogAggregator@latest
+go install github.com/del0123/BlogAggregator@latest
 
 ```
-
-> **Note:** Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username. Ensure that your `$GOPATH/bin` (or `~/go/bin`) directory is included in your system's `PATH` environment variable so you can run the binary from anywhere.
 
 Alternatively, for local development, you can build the executable directly inside the project root:
 
